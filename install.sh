@@ -31,7 +31,7 @@ set -e
 # while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Ensure Apple's command line tools are installed
-if ! xcodebuild -version >/dev/null; then
+if ! command -v cc >/dev/null; then
   fancy_echo "Installing xcode ..."
   xcode-select --install 
 else
