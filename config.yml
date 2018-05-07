@@ -1,0 +1,44 @@
+---
+homebrew_installed_packages:
+  - ctop
+  - jq
+  - zsh-completions
+  - zsh
+  - tmux
+  - vim
+  - wget
+  - watch
+  - ssh-copy-id
+
+homebrew_taps:
+  - homebrew/core
+  - caskroom/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - appcleaner
+  - colloquy
+  - docker
+  - dropbox
+  - etcher
+  - ethereum-wallet
+  - firefox
+  - google-chrome
+  - hipchat
+  - insomnia
+  - iterm2
+  - kitematic
+  - macdown
+  - macvim
+  - phpstorm
+  - robo-3t
+  - sizeup
+  - skype
+  - spotify
+  - sublime-text
+  - transmission
+  - the-unarchiver
+  - virtualbox
+  - vlc
+  - visual-studio-code
+  - sequel-pro

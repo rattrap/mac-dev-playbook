@@ -1,0 +1,3 @@
+---
+- name: lafarer.osx-defaults
+- name: geerlingguy.homebrew
