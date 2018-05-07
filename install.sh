@@ -64,6 +64,9 @@ git clone https://github.com/rattrap/mac-dev-playbook.git
 fancy_echo "Changing to mac dev playbook repo dir ..."
 cd mac-dev-playbook
 
+fancy_echo "Installing ansible modules ..."
+ansible-galaxy install -r requirements.yml
+
 # Run this from the same directory as this README file. 
 fancy_echo "Running ansible playbook ..."
 ansible-playbook main.yml -i hosts --ask-sudo-pass -vvvv 
