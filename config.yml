@@ -23,7 +23,7 @@ homebrew_cask_apps:
   - ethereum-wallet
   - firefox
   - google-chrome
-  - hipchat
+  - slack
   - insomnia
   - iterm2
   - kitematic
