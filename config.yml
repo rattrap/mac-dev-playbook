@@ -9,6 +9,10 @@ homebrew_installed_packages:
   - wget
   - watch
   - ssh-copy-id
+  - terraform
+  - s3cmd
+  - kops
+  - kubernetes-cli
 
 homebrew_taps:
   - homebrew/core
