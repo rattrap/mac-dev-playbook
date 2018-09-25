@@ -12,6 +12,7 @@ homebrew_installed_packages:
   - terraform
   - s3cmd
   - kops
+  - minikube
   - kubernetes-cli
 
 homebrew_taps:
